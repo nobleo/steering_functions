@@ -17,6 +17,7 @@ endif()
 find_package(Eigen3 REQUIRED)
 
 if(BUILD_WITH_ROS)
+    message("Building with ROS 1 :)")
     find_package(catkin REQUIRED COMPONENTS
         roscpp
         geometry_msgs
